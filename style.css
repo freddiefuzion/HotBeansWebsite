@@ -6,20 +6,25 @@
 }
 
 body{
-    background-color: #ece9f7; 
+    background-color: #F5F5F5; 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: Arial, sans-serif;
 }
 
 /* Header */
 header{
-    background-color: blueviolet;
-    color: aqua;
+    background-color: #4B0082;
+    color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
+}
+
+header h1{
+    color: #FFFFFF;
 }
 
 header img{
@@ -34,14 +39,14 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: aqua;
+    color: #FFFFFF;
     padding: 10px 15px;
     font-size: 18px;
     transition: 0.3s;
 }
 
 nav ul li a:hover{
-    background-color: black;
+    background-color: #8A2BE2;
     border-radius: 10px;
     transform: scale(1.1);
 }
@@ -190,8 +195,8 @@ nav ul li a:hover{
 
 /* Footer */
 footer{
-    background-color: blueviolet;
-    color: aqua;
+    background-color: #4B0082;
+    color: #FFFFFF;
     text-align: center;
     padding: 40px;
     margin-top: 40px;
@@ -200,7 +205,7 @@ footer{
 
 
 body{
-    background-color: #ece9f7;
+    background-color: #F5F5F5;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
