@@ -1,19 +1,21 @@
-const form = document.getElementById("applicationForm");
+let form = document.getElementById("applicationForm");
 
-const fname = document.getElementById("fname");
-const lname = document.getElementById("lname");
-const email = document.getElementById("email");
-const phone = document.getElementById("pnumber");
+if (form) {
 
-const fnameError = document.getElementById("fnameError");
-const lnameError = document.getElementById("lnameError");
-const emailError = document.getElementById("emailError");
-const phoneError = document.getElementById("phoneError");
+let fname = document.getElementById("fname");
+let lname = document.getElementById("lname");
+let email = document.getElementById("email");
+let phone = document.getElementById("pnumber");
+
+let fnameError = document.getElementById("fnameError");
+let lnameError = document.getElementById("lnameError");
+let emailError = document.getElementById("emailError");
+let phoneError = document.getElementById("phoneError");
 
 
-const namePattern = /^[A-Za-z\s]+$/;
-const emailPattern = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
-const phonePattern = /^[0-9]{10,15}$/;
+let namePattern = /^[A-Za-z\s]+$/;
+let emailPattern = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+let phonePattern = /^[0-9]{10,15}$/;
 
 
 function validateFirstName() {
