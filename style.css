@@ -257,6 +257,12 @@ nav ul li a:hover{
     transform: scale(1.05);
 }
 
+.dropdown-content {
+  display: none;
+  overflow: hidden;
+}
+
+
 /* Footer */
 footer{
     background-color: #4B0082;
