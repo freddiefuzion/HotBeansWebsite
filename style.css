@@ -126,6 +126,93 @@ nav ul li a:hover{
     background-color: #5b1fb8;
 }
 
+/* What we offer */
+.offer-section {
+  margin: 80px auto;
+  max-width: 1100px;
+  text-align: center;
+  padding: 20px;
+}
+
+.offer-header {
+  margin-bottom: 50px;
+}
+
+.offer-tag {
+  background-color: #FFE5D0;
+  color: #FF6B00;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.offer-header h2 {
+  font-size: 32px;
+  color: #111;
+  margin-top: 15px;
+}
+
+.offer-header p {
+  color: #555;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+
+.offer-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  padding: 25px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.offer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.offer-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.offer-card h3 {
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.offer-card p {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.offer-link {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.offer-link.red { color: #FF6B00; }
+.offer-link.blue { color: #00AEEF; }
+.offer-link.green { color: #00B37E; }
+
+.offer-link:hover {
+  text-decoration: underline;
+}
+
+
 /* Trainees */
 .trainee-card{
     display: flex;
@@ -150,7 +237,7 @@ nav ul li a:hover{
     object-fit: cover;
 }
 
-/* Jobs */
+/* Jobs*/
 .job-card, .course-card{
     background-color: white;
     padding: 20px;
