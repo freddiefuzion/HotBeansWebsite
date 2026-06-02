@@ -70,6 +70,69 @@ nav ul li a:hover{
     box-shadow: 0 0 10px #999;
 }
 
+/* Courses*/
+.courses-section {
+  max-width: 900px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.courses-title {
+  font-size: 30px;
+  color: #4B0082;
+  margin-bottom: 10px;
+}
+
+.courses-intro {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.course-box {
+  margin-bottom: 20px;
+}
+
+.dropdown-btn {
+  background-color: #8A2BE2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.dropdown-btn:hover {
+  background-color: #5b1fb8;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 5px;
+  padding: 10px;
+  text-align: left;
+}
+
+.dropdown-content a {
+  display: block;
+  color: #4B0082;
+  text-decoration: none;
+  padding: 8px 0;
+  transition: 0.3s;
+}
+
+.dropdown-content a:hover {
+  color: #8A2BE2;
+}
+
+
 /* Panels */
 .home-panels{
     display: flex;
