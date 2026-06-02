@@ -28,45 +28,30 @@
   <h1>Application Form</h1>
 
  <form class="form" action="https://formspree.io/f/mzdwlkdn" method="POST">
+<form class="form" id="applicationForm" action="https://formspree.io/f/mzdwlkdn" method="POST">
 
     <div class="input-box">
       <label>First Name</label>
-      <input type="text" 
-             name="First Name" 
-             placeholder="e.g. John"
-             pattern="[A-Za-z\s]+" 
-             title="Letters only"
-             required>
+      <input type="text" id="fname" name="First Name" placeholder="e.g. Freddie" required>
+      <small class="error" id="fnameError"></small>
     </div>
 
     <div class="input-box">
       <label>Last Name</label>
-      <input type="text" 
-             name="Last Name" 
-             placeholder="e.g. Doe"
-             pattern="[A-Za-z\s]+" 
-             title="Letters only"
-             required>
+      <input type="text" id="lname" name="Last Name" placeholder="e.g. Simpson" required>
+      <small class="error" id="lnameError"></small>
     </div>
 
     <div class="input-box">
       <label>Email</label>
-      <input type="email" 
-             name="Email" 
-             placeholder="e.g. HotBeans@example.com"
-             pattern="^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$"
-             title="Enter a valid email address"
-             required>
+      <input type="email" id="email" name="Email" placeholder="e.g. freddie@example.com" required>
+      <small class="error" id="emailError"></small>
     </div>
 
     <div class="input-box">
       <label>Phone Number</label>
-      <input type="text" 
-             name="Phone Number" 
-             placeholder="e.g. 07123456789"
-             pattern="[0-9]{10,15}" 
-             title="Numbers Only"
-             required>
+      <input type="text" id="pnumber" name="Phone Number" placeholder="e.g. 07123456789" required>
+      <small class="error" id="phoneError"></small>
     </div>
 
     <div class="input-box">
@@ -81,10 +66,7 @@
 
     <div class="input-box">
       <label>Experience</label>
-      <textarea name="Experience" 
-                rows="4" 
-                placeholder="Describe your experience here..."
-                required></textarea>
+      <textarea name="Experience" rows="4" placeholder="Describe your experience here..." required></textarea>
     </div>
 
     <div class="button">
@@ -92,6 +74,10 @@
     </div>
 
 </form>
+
+<!-- CONNECT JAVASCRIPT -->
+<script src="script.js"></script>
+
 
 
 </section>
