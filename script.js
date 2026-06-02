@@ -73,16 +73,3 @@ if (form) {
 
 
 
-let dropdowns = document.getElementsByClassName("dropdown-btn");
-
-for (let i = 0; i < dropdowns.length; i++) {
-    dropdowns[i].addEventListener("click", function () {
-        let content = this.nextElementSibling;
-
-        if (content.style.display === "block") {
-            content.style.display = "none";
-        } else {
-            content.style.display = "block";
-        }
-    });
-}
