@@ -70,73 +70,51 @@ nav ul li a:hover{
     box-shadow: 0 0 10px #999;
 }
 
-/* Courses*/
-
 /* COURSE PANELS */
 .courses-panels {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 60px; /* more space between panels */
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .course-panel {
     background-color: white;
-    padding: 25px;
-    width: 300px;
-    min-height: 250px;
-    border-radius: 12px;
+    padding: 35px; /* bigger padding */
+    width: 360px; /* wider panel */
+    min-height: 320px; /* taller panel */
+    border-radius: 14px;
     border: 1px solid #ccc;
     text-align: center;
     transition: 0.3s;
+    box-shadow: 0 0 12px rgba(0,0,0,0.08);
 }
 
 .course-panel:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 12px #aaa;
+    transform: translateY(-6px);
+    box-shadow: 0 0 18px rgba(0,0,0,0.18);
 }
 
 .course-panel h3 {
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     color: #4B0082;
+    font-size: 24px;
 }
 
 .course-panel p {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: #333;
+    font-size: 16px;
 }
 
 .course-panel .btn-link {
     display: block;
-    margin: 8px auto;
-    width: 80%;
+    margin: 10px auto;
+    width: 85%;
     text-align: center;
-}
-
-
-
-
-.dropdown-content {
-  display: none;
-  background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  margin-top: 5px;
-  padding: 10px;
-  text-align: left;
-}
-
-.dropdown-content a {
-  display: block;
-  color: #4B0082;
-  text-decoration: none;
-  padding: 8px 0;
-  transition: 0.3s;
-}
-
-.dropdown-content a:hover {
-  color: #8A2BE2;
+    padding: 10px;
+    font-size: 16px;
 }
 
 
