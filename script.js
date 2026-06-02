@@ -18,7 +18,7 @@ const phonePattern = /^[0-9]{10,15}$/;
 
 function validateFirstName() {
     if (!namePattern.test(fname.value)) {
-        fnameError.textContent = "First name must contain letters only.";
+        fnameError.textContent = "Your First name must contain letters only.";
         return false;
     }
     fnameError.textContent = "";
@@ -27,7 +27,7 @@ function validateFirstName() {
 
 function validateLastName() {
     if (!namePattern.test(lname.value)) {
-        lnameError.textContent = "Last name must contain letters only.";
+        lnameError.textContent = "Your Last name must contain letters only.";
         return false;
     }
     lnameError.textContent = "";
@@ -36,7 +36,7 @@ function validateLastName() {
 
 function validateEmail() {
     if (!emailPattern.test(email.value)) {
-        emailError.textContent = "Enter a valid email address.";
+        emailError.textContent = "Please Enter a valid email address.";
         return false;
     }
     emailError.textContent = "";
@@ -45,7 +45,7 @@ function validateEmail() {
 
 function validatePhone() {
     if (!phonePattern.test(phone.value)) {
-        phoneError.textContent = "Phone number must be 10–15 digits.";
+        phoneError.textContent = "Please Enter a valid phone number.";
         return false;
     }
     phoneError.textContent = "";
