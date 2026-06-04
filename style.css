@@ -72,7 +72,6 @@ nav ul li a:hover{
 
 /* Couse  */
 
-
 .courses-section {
   max-width: 900px;
   margin: 60px auto;
@@ -88,10 +87,9 @@ nav ul li a:hover{
 
 .courses-intro {
   color: #555;
+  text-algin: center;
   margin-bottom: 30px;
 }
-
-
 
 .courses-panels {
     display: flex;
