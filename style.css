@@ -70,20 +70,20 @@ nav ul li a:hover{
     box-shadow: 0 0 10px #999;
 }
 
-/* COURSE PANELS */
+/* Couse  */
 .courses-panels {
     display: flex;
     flex-wrap: wrap;
-    gap: 60px; /* more space between panels */
+    gap: 60px; 
     justify-content: center;
     margin-top: 50px;
 }
 
 .course-panel {
     background-color: white;
-    padding: 35px; /* bigger padding */
-    width: 360px; /* wider panel */
-    min-height: 320px; /* taller panel */
+    padding: 35px; 
+    width: 360px; 
+    min-height: 320px; 
     border-radius: 14px;
     border: 1px solid #ccc;
     text-align: center;
@@ -97,12 +97,14 @@ nav ul li a:hover{
 }
 
 .course-panel h3 {
+    text-align: Center;
     margin-bottom: 18px;
     color: #4B0082;
     font-size: 24px;
 }
 
 .course-panel p {
+    text-align: Center;
     margin-bottom: 25px;
     color: #333;
     font-size: 16px;
