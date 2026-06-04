@@ -71,6 +71,28 @@ nav ul li a:hover{
 }
 
 /* Couse  */
+
+
+.courses-section {
+  max-width: 900px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.courses-title {
+  font-size: 30px;
+  color: #4B0082;
+  margin-bottom: 10px;
+}
+
+.courses-intro {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+
+
 .courses-panels {
     display: flex;
     flex-wrap: wrap;
