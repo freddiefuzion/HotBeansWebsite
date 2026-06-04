@@ -99,6 +99,13 @@ nav ul li a:hover{
     margin-top: 50px;
 }
 
+.courses-addition {
+    color:#555;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
 .course-panel {
     background-color: white;
     padding: 35px; 
@@ -236,6 +243,9 @@ nav ul li a:hover{
     box-shadow: 0 0 10px #aaa;
 }
 
+
+
+
 /* applicatio Form */
 .form{
     background-color: white;
@@ -289,6 +299,28 @@ body{
 }
 
 footer{
+    background-color: #4B0082;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px;
     margin-top: auto;
+    width: 100%;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: #FFDFFF;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
 }
 
